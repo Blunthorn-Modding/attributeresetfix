@@ -3,13 +3,13 @@
 	"id": "attributeresetfix",
 	"version": "${version}",
 	"name": "AttributeResetFix",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Fixes attributes resetting on death. (issue MC-179940)",
 	"authors": [
-		"Me!"
+		"WouterB"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Blunthorn-Modding/attributeresetfix"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/attributeresetfix/icon.png",
@@ -27,8 +27,5 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
